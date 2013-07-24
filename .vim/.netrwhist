@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/opt/lampp/htdocs/Korum/src'
+let g:netrw_dirhist_2='/opt/lampp/htdocs/Korum/web-agecr'
+let g:netrw_dirhist_3='/opt/lampp/htdocs/Korum/src'
+let g:netrw_dirhist_4='/opt/lampp/htdocs/Korum/web'
+let g:netrw_dirhist_5='/opt/lampp/htdocs/Korum/web-agecr'
+let g:netrw_dirhist_6='/home/dagnan/.vim'
+let g:netrw_dirhist_7='/opt/Dofus_Paquet/share/META-INF/AIR'
+let g:netrw_dirhist_8='/opt/lampp/htdocs/Korum/src/Korum/KBundle/Controller'
+let g:netrw_dirhist_9='/home/dagnan/.vim/syntax/spip.vim'
