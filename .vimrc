@@ -38,6 +38,7 @@ set autoindent
 set ruler 
 set cursorline
 set autoindent
+set noswapfile
 if has("wildmenu")
     set wildmenu
     set wildmode=list:full
