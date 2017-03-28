@@ -1,0 +1,14 @@
+ /**
+  * @function
+  * @name
+  * @description
+  * @author     Diane Agnan <dagnan@.com>
+  * @since      
+  * @module Catalog
+  * @see
+  * @deprecated Class deprecated in Release [RELEASE VERSION]
+  * @param {String} Name Desc
+  * @return {String} Name Desc
+  * @throws {String} Name Desc
+  * @todo
+  */
