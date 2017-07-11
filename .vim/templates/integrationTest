@@ -1,0 +1,26 @@
+
+
+const setup = require('./../../utils/setup');
+
+const Promise = require('bluebird');
+const _ = require('lodash');
+
+const models = setup.models;
+const controllers = setup.controllers;
+
+const tables = [];
+
+describe('', () => {
+  beforeEach(() => {
+    return setup.initializeDb(tables){
+  })
+
+  afterEach(() => {
+    return setup.flushDb();
+  });
+
+  describe('', () => {
+    it('should', () => {
+    })
+  })
+})
