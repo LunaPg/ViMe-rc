@@ -29,7 +29,7 @@ syntax keyword JavascriptNull null undefined
 syntax keyword javaScriptConditional    if else
 syntax keyword javaScriptRepeat         do while for 
 syntax keyword javaScriptBranch         break continue switch case default return when otherwise describe it expect
-syntax keyword javaScriptStatement      try catch throw with finally 
+syntax keyword javaScriptStatement      try catch throw with finally instanceof 
 syntax keyword javaScriptGlobalObjects  Array Boolean Date Function Infinity Math Number NaN Object Packages RegExp String Undefined JSON
 syntax keyword javaScriptExceptions     Error EvalError RangeError ReferenceError SyntaxError TypeError URIError
 
@@ -72,11 +72,13 @@ syn match ExtraSpaces display '\s\+$'
 syn match JRepeat display '\(map\|forEach\|each\|invoke\)'
 syn match JNamespace display '[A-Z][A-Z][A-Z]'
 syn match JPrivate display '_\w\+'
+syn match ModuleExports 'module.exports'
 
 " Experimenting ;)
 " syn match FunctionCall display '\.[a-zA-Z0-9]+\([^\)]+\)'
 " highlight FunctionCall ctermfg=160
 
+highlight ModuleExports  ctermfg=221 guifg=#ff9966 cterm=bold gui=bold
 highlight EmptyParentheses ctermfg=221 guifg=#ff9966
 highlight Parentheses ctermfg=214 guifg=#ff9966 cterm=bold gui=bold
 
