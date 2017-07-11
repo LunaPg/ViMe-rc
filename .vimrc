@@ -19,7 +19,10 @@ inoremap <C-P> <ESC>:call PhpDocSingle()<CR>
 nnoremap <C-P> :call PhpDocSingle()<CR>
 nnoremap ,m :w <BAR> !lessc % > %:t:r.css<CR><space>
 vnoremap <C-P> :call PhpDocRange()<CR>
-map ,p :r ~/.vim/templates/phpdoc.php<cr>
+map ,p :r ~/.vim/templates/jsdoc<cr>
+map ,c :r ~/.vim/templates/controller.js<cr>
+map ,model :r ~/.vim/templates/model.js<cr>
+map ,it :r ~/.vim/templates/integrationTest<cr>
 
 " config pour autocomplete
 "let mapleader="@"
@@ -27,8 +30,8 @@ set foldlevel=666
 set foldcolumn=0
 set foldmethod=indent
 set expandtab
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 set incsearch
 set hlsearch
 set smartcase
